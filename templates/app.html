@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Fraud Detection</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+    <script src="{{ url_for('static',filename='app.js') }}" defer></script>
+	<link rel="stylesheet" href="{{ url_for('static',filename='app.css') }}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="img"></div>
+<div class="cont">
+	<h1>Credit Card Fraud Detection</h1>
+	<div class="form">
+		<input 
+			class="area"  
+			type="text" 
+			id="time" 
+			class="floatLabel" 
+			name="Squareft" 
+			placeholder="Time"
+			value="41233">
+		<input 
+			class="area"  
+			type="text" 
+			id="amount" 
+			class="floatLabel" 
+			name="Squareft" 
+			placeholder="Amount"
+			value="0">
+
+		<button class="submit" onclick="onClickedEstimatePrice()" type="button">Mock Payment</button>
+		<div id="uiEstimatedPrice" class="wrn"></div>
+	</div>
+
+	
+	
+</div>
+	
+	
+</body>
+</html>
