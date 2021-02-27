@@ -8,7 +8,7 @@ def check_fraud(time, amount):
     with open('./artifacts/myfinal.pickle', 'rb') as f:
         pickle_model = pickle.load(f)
     # loading loading csv
-    xTest = pd.read_csv('./artifacts/creditcard.csv')
+    xTest = pd.read_json('./artifacts/file.json')
     pca_credit = xTest[(xTest['Time'] == time) & (xTest['Amount'] == amount)]
     if(len(pca_credit) == 0):
         return 'INVALID'
