@@ -1,5 +1,5 @@
 
-const baseurl="https://creditcardpred12.herokuapp.com/"
+const baseurl="https://devop12.herokuapp.com/"
 function getBathValue() {
     var uiBathrooms = document.getElementsByName("uiBathrooms");
     for(var i in uiBathrooms) {
