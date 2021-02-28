@@ -1,11 +1,7 @@
-absl-py==0.10.0
+gunicorn==20.0.4
 alabaster==0.7.12
 albumentations==0.1.12
-altair==4.1.0
-dill==0.3.3
 distributed==1.25.3
-Django==3.1.7
-fix-yahoo-finance==0.0.22
 Flask==1.1.2
 matplotlib==3.2.2
 matplotlib-venn==0.11.6
@@ -26,7 +22,6 @@ scipy==1.4.1
 scs==2.1.2
 seaborn==0.11.1
 simplegeneric==0.8.1
-six==1.15.0
 sklearn==0.0
 sklearn-pandas==1.8.0
 SQLAlchemy==1.3.23
